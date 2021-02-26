@@ -1,0 +1,21 @@
+#include <iostream>
+
+
+using namespace std;
+
+#include "football_club.h"
+#include "player.h"
+
+int main()
+{
+
+    footballclub localclub("Oranmore", "Galway");
+    player playerdetails("Alan","Carney","Striker","08712345")
+
+
+    cout <<"Club Name = " << localclub.getclubname()<< "    District Name = "<< localclub.getdistrict()<< endl;
+    cout << "Forename = " << playerdetails.getforename()<< "Surname = " <<playerdetails.getsurname()<< "Position = " <<  playerdetails.getposition()<< "Tel =" << playerdetails.getmobilenumberendl;
+
+
+    return 0;
+}
