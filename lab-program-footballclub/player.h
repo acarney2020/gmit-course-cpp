@@ -22,8 +22,6 @@ public:
     this->mobilenumber=mobilenumber;
     }
 
-     player()
-     
 void printInfo(){
 }
 

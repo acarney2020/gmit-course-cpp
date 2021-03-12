@@ -1,8 +1,6 @@
-#ifndef PLAYER_H_INCLUDED
-#define PLAYER_H_INCLUDED
+#include <iostream>
 
-
-#endif // PLAYER_H_INCLUDED
+using namespace std;
 
 class player{
 
@@ -15,15 +13,13 @@ private:
 
 public:
 
-    player( string forename, string surname, string position, int mobilenumber) {
+    player( string forename, string surname; string position; int mobilenumber) {
     this->forename=forename;
     this->surname=surname;
     this->position=position;
     this->mobilenumber=mobilenumber;
     }
 
-     player()
-     
 void printInfo(){
 }
 
@@ -59,3 +55,12 @@ void setmobilenumber (int mobilenumber){
 
 
 };
+
+int main()
+{
+
+
+    return 0;
+}
+
+
