@@ -27,7 +27,7 @@ public:
     void setName(string forename,string surname);
 
     void setplayernumber(int playernumber);
-  //  int getplayernumber();
+//    int getplayernumber();
     void setPosition(string position);
     string getPosition();
     void setMobileNumber(string mobileNumber);

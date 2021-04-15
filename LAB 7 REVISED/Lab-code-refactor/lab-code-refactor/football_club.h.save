@@ -10,7 +10,7 @@ private:
     string clubname;
     string district;
     string stripColour;
-    string Theteammanager;   // added for q3
+    string Theteammanager;
 
     // const static int , way to make a constant variable in a class
     const static int MAXSQUAD = 23;
@@ -29,11 +29,10 @@ public:
 
     string getClubname();
     string getDistrict();
-    string getTheteammanager();
+    string 
 
     void setClubname(string clubname);
     void setDistrictname(string district);
-    void setTheteammanager(string Theteammanager);
     void printInfo();
 
 

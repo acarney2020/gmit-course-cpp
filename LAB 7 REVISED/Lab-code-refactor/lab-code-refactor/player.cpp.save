@@ -24,7 +24,7 @@
     }
 
     void Player::printPlayerInfo(){
-        cout<< "playernumber:"<<playernumber<< "Name:"<<forename<<" "<<surname<<", DOB: "<<dob<<", position:"<<position<<", contact:"<<mobileNumber<<endl;
+        cout<< "playernumber:"<<playernumber<< "Name:"<<forename<<" "<<surname<<", DOB: "<<dob<<", position:"<<position<<", contact:"<<mobileNumber<<endl;  
 
     }
    int Player::getplayernumber(){
